@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harry Potter Character Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>⚡ Which Harry Potter Character Are You? ⚡</h1>
+    <p id="intro">Answer the questions to discover your magical match!</p>
+
+    <div id="quiz"></div>
+
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+
+    <div id="result" class="hidden">
+      <h2>Your Result:</h2>
+      <p id="character-name"></p>
+      <p id="character-description"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
